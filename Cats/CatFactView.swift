@@ -12,10 +12,18 @@ struct CatFactView: View {
     @ObservedObject var catFactManager = CatFactManager()
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .onAppear {
-                catFactManager.getCatFact()
+        VStack {
+            if let fact = catFactManager.fact {
+                Text(fact.fact)
+                    .padding()
+            } else {
+                ProgressView()
+                    .progressViewStyle(CircularProgressViewStyle())
             }
+        }
+        .onAppear {
+            catFactManager.getCatFact()
+        }
     }
 }
 

@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct CatImageView: View {
+    
+    @ObservedObject var catImageManger = CatImageManager()
+    
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            .onAppear {
+                catImageManger.getCatImage()
+            }
     }
 }
 

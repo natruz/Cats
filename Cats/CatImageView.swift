@@ -12,10 +12,17 @@ struct CatImageView: View {
     @ObservedObject var catImageManger = CatImageManager()
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .onAppear {
-                catImageManger.getCatImage()
+        VStack {
+            if let image = catImageManger.image {
+                Image(uiImage: image)
+            } else {
+                ProgressView()
+                    .progressViewStyle(CircularProgressViewStyle())
             }
+        }
+        .onAppear {
+            catImageManger.getCatImage()
+        }
     }
 }
 

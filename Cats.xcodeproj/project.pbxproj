@@ -11,6 +11,8 @@
 		2EA081B2286FED8600B16E4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA081B1286FED8600B16E4B /* ContentView.swift */; };
 		2EA081B4286FED8900B16E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA081B3286FED8900B16E4B /* Assets.xcassets */; };
 		2EA081B7286FED8900B16E4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA081B6286FED8900B16E4B /* Preview Assets.xcassets */; };
+		2EA081BE286FEDE900B16E4B /* CatFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA081BD286FEDE900B16E4B /* CatFactView.swift */; };
+		2EA081C0286FEDF100B16E4B /* CatImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA081BF286FEDF100B16E4B /* CatImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2EA081B1286FED8600B16E4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2EA081B3286FED8900B16E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EA081B6286FED8900B16E4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2EA081BD286FEDE900B16E4B /* CatFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactView.swift; sourceTree = "<group>"; };
+		2EA081BF286FEDF100B16E4B /* CatImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				2EA081AF286FED8600B16E4B /* CatsApp.swift */,
 				2EA081B1286FED8600B16E4B /* ContentView.swift */,
+				2EA081BD286FEDE900B16E4B /* CatFactView.swift */,
+				2EA081BF286FEDF100B16E4B /* CatImageView.swift */,
 				2EA081B3286FED8900B16E4B /* Assets.xcassets */,
 				2EA081B5286FED8900B16E4B /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EA081B2286FED8600B16E4B /* ContentView.swift in Sources */,
+				2EA081BE286FEDE900B16E4B /* CatFactView.swift in Sources */,
 				2EA081B0286FED8600B16E4B /* CatsApp.swift in Sources */,
+				2EA081C0286FEDF100B16E4B /* CatImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,6 +15,7 @@
 		2EA081C0286FEDF100B16E4B /* CatImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA081BF286FEDF100B16E4B /* CatImageView.swift */; };
 		2EA081C2286FEFDC00B16E4B /* CatFactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA081C1286FEFDB00B16E4B /* CatFactManager.swift */; };
 		2EA081C4286FF23600B16E4B /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA081C3286FF23600B16E4B /* CatFact.swift */; };
+		2EA081C6286FF4C000B16E4B /* CatImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA081C5286FF4C000B16E4B /* CatImageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2EA081BF286FEDF100B16E4B /* CatImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageView.swift; sourceTree = "<group>"; };
 		2EA081C1286FEFDB00B16E4B /* CatFactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactManager.swift; sourceTree = "<group>"; };
 		2EA081C3286FF23600B16E4B /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
+		2EA081C5286FF4C000B16E4B /* CatImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2EA081B1286FED8600B16E4B /* ContentView.swift */,
 				2EA081C1286FEFDB00B16E4B /* CatFactManager.swift */,
 				2EA081BD286FEDE900B16E4B /* CatFactView.swift */,
+				2EA081C5286FF4C000B16E4B /* CatImageManager.swift */,
 				2EA081C3286FF23600B16E4B /* CatFact.swift */,
 				2EA081BF286FEDF100B16E4B /* CatImageView.swift */,
 				2EA081B3286FED8900B16E4B /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 				2EA081BE286FEDE900B16E4B /* CatFactView.swift in Sources */,
 				2EA081C4286FF23600B16E4B /* CatFact.swift in Sources */,
 				2EA081C2286FEFDC00B16E4B /* CatFactManager.swift in Sources */,
+				2EA081C6286FF4C000B16E4B /* CatImageManager.swift in Sources */,
 				2EA081B0286FED8600B16E4B /* CatsApp.swift in Sources */,
 				2EA081C0286FEDF100B16E4B /* CatImageView.swift in Sources */,
 			);

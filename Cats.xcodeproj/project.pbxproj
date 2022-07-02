@@ -63,11 +63,11 @@
 			children = (
 				2EA081AF286FED8600B16E4B /* CatsApp.swift */,
 				2EA081B1286FED8600B16E4B /* ContentView.swift */,
-				2EA081C1286FEFDB00B16E4B /* CatFactManager.swift */,
-				2EA081BD286FEDE900B16E4B /* CatFactView.swift */,
-				2EA081C5286FF4C000B16E4B /* CatImageManager.swift */,
 				2EA081C3286FF23600B16E4B /* CatFact.swift */,
+				2EA081BD286FEDE900B16E4B /* CatFactView.swift */,
+				2EA081C1286FEFDB00B16E4B /* CatFactManager.swift */,
 				2EA081BF286FEDF100B16E4B /* CatImageView.swift */,
+				2EA081C5286FF4C000B16E4B /* CatImageManager.swift */,
 				2EA081B3286FED8900B16E4B /* Assets.xcassets */,
 				2EA081B5286FED8900B16E4B /* Preview Content */,
 			);

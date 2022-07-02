@@ -15,6 +15,12 @@ struct CatImageView: View {
         VStack {
             if let image = catImageManger.image {
                 Image(uiImage: image)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 300, height: 300)
+                Button("Another one") {
+                    catImageManger.getCatImage()
+                }
             } else {
                 ProgressView()
                     .progressViewStyle(CircularProgressViewStyle())

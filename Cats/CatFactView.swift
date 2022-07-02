@@ -16,6 +16,9 @@ struct CatFactView: View {
             if let fact = catFactManager.fact {
                 Text(fact.fact)
                     .padding()
+                Button("Another one") {
+                    catFactManager.getCatFact()
+                }
             } else {
                 ProgressView()
                     .progressViewStyle(CircularProgressViewStyle())
